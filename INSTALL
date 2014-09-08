@@ -1,0 +1,18 @@
+cd ~/
+mkdir vundle_vim_setting
+cd vundle_vim_setting
+mkdir bundle
+mkdir colors
+mkdir plugin
+create vimrc
+#if you use gvim
+create gvimrc
+#create link
+cd ~/
+ln -s vundle_vim_setting/ .vim
+ln -s .vim/vimrc .vimrc
+ln -s .vim/gvimrc .gvimrc
+#Set up Vundle:
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#edit your vimrc
+
